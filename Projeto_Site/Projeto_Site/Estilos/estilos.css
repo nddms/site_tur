@@ -1,32 +1,6 @@
 	
 	/* Classes base */
 	
-	@media (max-width: 768px) {
-	body {
-		font-size: 16px;
-		padding: 10px;
-	}
-
-	.menu {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .dropbtn {
-    width: 100%;
-    text-align: left;
-  }
-
-  table {
-    width: 100%;
-  }
-
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-}
-
 	head{
 		width: 100%;
 	}
@@ -361,4 +335,34 @@
 	}
 	}
 
-	
+	@media screen and (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    padding-left: 0;
+    align-items: center;
+  }
+
+  .dropdown {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .dropbtn {
+    width: 90%;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .limite {
+    max-width: 90%;
+    padding: 10px;
+  }
+
+  .slideshow-container {
+    width: 100%;
+  }
+
+  iframe {
+    height: 150px; /* Ajusta conforme o conteúdo do rodapé */
+  }
+}
