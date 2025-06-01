@@ -1,0 +1,146 @@
+<!Doctype html>
+<html>
+	<head>
+		<!-- Fonte Orbitron -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+		
+		<!-- Informa o tipo de conteúdo da página e qual a codificação de caracteres  -->
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		
+		<!-- Permite o ajuste do site à diferentes tamanhos de ecrãs  -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Permite utilizar ícones  -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+		
+		<!-- Importa a folha de estilos CSS  -->
+		<link rel="stylesheet" type="text/css" href="../Estilos/estilos.css">
+		
+		<!-- Menu superior onde fica a barra de pesquisa  -->
+		<div class="cnt">
+			<div class="container">
+				<table>
+					<tr>
+						<td class="tipo1" align="left"><a href="../Páginas/home.html"><img src="../Imagens/logo3.png" width="150px"></a></td>
+						<td align="left">
+							<div class="menu">
+								<div class="dropdown">
+									<a href="home.html"><button  class="dropbtn">Home</button></a>
+								</div>
+								<div class="dropdown">
+									<a href="planetas.html"><button class="dropbtn">Planetas</button></a>
+									<div class="dropdown-content">
+										<a href="planetas.html#mercurio">Mercúrio</a>
+										<a href="planetas.html#venus">Vénus</a>
+										<a href="planetas.html#terra">Terra</a>
+										<a href="planetas.html#marte">Marte</a>
+										<a href="planetas.html#jupiter">Júpiter</a>
+										<a href="planetas.html#saturno">Saturno</a>
+										<a href="planetas.html#urano">Urano</a>
+										<a href="planetas.html#neptuno">Neptuno</a>
+									</div>
+								</div>
+								<div class="dropdown">
+									<a href="estrelas.html"><button class="dropbtn">Estrelas</button></a>
+									<div class="dropdown-content">
+										<a href="../Páginas/estrelas.html#sol">Sol</a>
+									</div>
+								</div>
+								<div class="dropdown">
+									<a href="../Páginas/satelitesnaturais.html"><button class="dropbtn">Satélites Naturais</button></a>
+                                    <div class="dropdown-content">
+                                        <a href="../Páginas/satelitesnaturais.html#lua">Lua</a>
+                                        <a href="../Páginas/satelitesnaturais.html#fobos">Fobos</a>
+                                        <a href="../Páginas/satelitesnaturais.html#deimos">Deimos</a>
+                                        <a href="../Páginas/satelitesnaturais.html#calisto">Calisto</a>
+                                        <a href="../Páginas/satelitesnaturais.html#io">Io</a>
+                                        <a href="../Páginas/satelitesnaturais.html#tita">Titã</a>
+                                        <a href="../Páginas/satelitesnaturais.html#reia">Reia</a>
+                                        <a href="../Páginas/satelitesnaturais.html#miranda">Miranda</a>
+                                        <a href="../Páginas/satelitesnaturais.html#oberon">Oberon</a>
+                                        <a href="../Páginas/satelitesnaturais.html#tritao">Tritão</a>
+                                        <a href="../Páginas/satelitesnaturais.html#proteu">Proteu</a>
+                                    </div>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</head>
+	
+	<body>
+		<div class="fundo">
+			<div class="container">
+				
+				<br><br><br>
+				<br><br><br>
+				<div class="limite">
+					<h1>BEM-VINDO AO TURISMO INTERPLANETÁRIO!</h1>
+					<p>Prepara-te para embarcar numa jornada fascinante pelos mistérios do nosso Sistema Solar!
+						<br><br>
+						Aqui, a ciência e a imaginação encontram-se para te levar numa viagem virtual pelos planetas, luas e estrelas. Aprende sobre as temperaturas extremas de Mercúrio, os anéis de Saturno, descobre as tempestades gigantes de Júpiter e descobre curiosidades incríveis sobre cada planeta.
+						<br><br>
+						Com imagens e factos científicos, o nosso objectivo é transformar a aprendizagem numa verdadeira aventura espacial.
+						<br><br>
+						Aperta o cinto...  a tua missão começa agora!</p>
+				</div>
+				<br><br><br>
+				<br><br><br>
+
+					<!-- Uma apresentação onde podemos colocar imagens tipo banners para chamar atenção e deixar o site
+				mais estiloso.-->
+				<div class="slideshow-container">
+					<div class="mySlides fade">
+						<a href="../Páginas/planetas.html">
+							<img src="../Imagens/sistemasolar.png" class="image-size">
+						</a>
+					</div>
+
+					<div class="mySlides fade">
+						<a href="../Páginas/estrelas.html">
+							<img src="../Imagens/sol2.jpg" class="image-size">
+						</a>
+					</div>
+
+					<div class="mySlides fade">
+						<a href="../Páginas/satelitesnaturais.html">
+							<img src="../Imagens/lua2.jpg" class="image-size">
+						</a>
+					</div>
+
+					<!-- Botões para mudar o slide. -->
+					<a class="prev" onclick="plusSlides(-1), onOff=true">❮</a>
+					<a class="next" onclick="plusSlides(1), onOff=true">❯</a>
+					
+					<div style="text-align:center">
+					<span class="dot" onclick="currentSlide(1), onOff=true"></span> 
+					<span class="dot" onclick="currentSlide(2), onOff=true"></span> 
+					<span class="dot" onclick="currentSlide(3), onOff=true"></span>
+					</div>
+				</div>
+				
+				
+			</div>
+			
+			<br><br><br>
+			<br><br><br>
+
+			<iframe src="rodape.html"></iframe>
+		</div>
+			
+			<!-- Importa os diferentes scripts que permitem as interações com os itens da página  -->
+			<script src="../Scripts/barra_pesquisa.js"></script>
+			
+			<script src="../Scripts/carrossel_imagens.js"></script>
+			
+			<script src="../Scripts/slide_banner.js"></script>
+	</body>
+
+	
+	
+	
+</html>
